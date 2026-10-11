@@ -554,9 +554,6 @@ button:focus-visible {
   margin-top: -50px;
   box-shadow: 0 20px 30px #FF6B2C;
 }
-#ayt_child{
-  position: relative;
-}
 #img_contact{
   width: 400px;
   height: 430px;
@@ -589,7 +586,6 @@ button:focus-visible {
   margin: 6px;
   width: 300px;
   padding: 13px;
-  box-shadow: 0 10px px #949a98;
 }
 #inp1{
   display: flex;
@@ -608,9 +604,9 @@ button:focus-visible {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  font-family: 'Poppins', Arial, sans-serife;
+  font-family: 'Poppins', Arial, sans-serif;
   border: none;
-  box-shadow: 0 2px 1cap #FF6B2C
+  box-shadow: 0 2px 6px #FF6B2C
 
 }
 #ch{
@@ -639,7 +635,7 @@ button:focus-visible {
   margin: 40px;
 }
 #yc{
-  color: FF6B2C;
+  color: #FF6B2C;
 }
 .logo img{
   width: 50px;
@@ -677,20 +673,28 @@ textarea{
 center{
   padding: 80px;
 }
-#btn_login{
+
+#btn_login {
   display: flex;
   justify-content: center;
-  color: white;
-  background-color: #FF6B2C;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 52px;
   padding: 10px;
   margin: 10px;
-  border-radius: 10px;
-  font-family: 'Poppins', Arial, sans-serife;
   border: none;
-  box-shadow: 0 2px 1cap #FF6B2C;
-  width: 300px;
-  height: 50px;
+  border-radius: 12px;
+  background-color: #ff642d;
+  color: #ffffff;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 18px #ff642d;
+  transition: all 0.25s ease;
 }
+
 
 
 #child_login {
@@ -783,23 +787,6 @@ center{
     height: 17px;
     accent-color: #ff642d;
     cursor: pointer;
-}
-#btn_login {
-    width: 100%;
-    min-height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9px;
-    border: none;
-    border-radius: 12px;
-    background-color: #ff642d;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 8px 18px #ff642d;
-    transition: all 0.25s ease;
 }
 
 #btn_login:hover {
